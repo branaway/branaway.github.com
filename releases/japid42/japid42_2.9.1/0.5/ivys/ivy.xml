@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="japid42" module="japid42_2.9.1" revision="0.5.2" status="release" publication="20121103214736">
+	<info organisation="japid42" module="japid42_2.9.1" revision="0.5" status="release" publication="20121022014401">
 		<description>
 		japid42
 		</description>
@@ -31,7 +31,6 @@
 		<dependency org="play" name="play-test_2.9.1" rev="2.0.4" conf="test->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-email" rev="1.2" conf="compile->default(compile)"/>
 		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="compile->default(compile)"/>
-		<dependency org="org.eclipse.tycho" name="org.eclipse.jdt.core" rev="3.8.2.v20120814-155456" conf="compile->default(compile)"/>
 		<dependency org="com.google.code.javaparser" name="javaparser" rev="1.0.8" conf="compile->default(compile)"/>
 		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
