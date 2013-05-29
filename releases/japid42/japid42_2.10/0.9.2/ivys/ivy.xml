@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="japid42" module="japid42_2.10" revision="0.9.1" status="release" publication="20130519012802">
+	<info organisation="japid42" module="japid42_2.10" revision="0.9.2" status="release" publication="20130529195504">
 		<description>
 		japid42
 		</description>
@@ -27,9 +27,9 @@
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.0" conf="compile->default(compile)"/>
-		<dependency org="play" name="play_2.10" rev="2.1.1" conf="compile->default(compile)"/>
-		<dependency org="play" name="play-test_2.10" rev="2.1.1" conf="test->default(compile)"/>
-		<dependency org="play" name="play-java_2.10" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="play" name="play_2.10" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="play" name="play-test_2.10" rev="2.1.0" conf="test->default(compile)"/>
+		<dependency org="play" name="play-java_2.10" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-email" rev="1.2" conf="compile->default(compile)"/>
 		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="compile->default(compile)"/>
 		<dependency org="org.eclipse.tycho" name="org.eclipse.jdt.core" rev="3.8.2.v20120814-155456" conf="compile->default(compile)"/>
