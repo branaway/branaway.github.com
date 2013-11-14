@@ -5,7 +5,7 @@
     <artifactId>japid42_2.10</artifactId>
     <packaging>jar</packaging>
     <description>japid42</description>
-    <version>0.9.13.1</version>
+    <version>0.9.14</version>
     <name>japid42</name>
     <organization>
         <name>japid42</name>
